@@ -26,7 +26,7 @@
 }
 
 .menu li {
-  width: 125px;
+  width: 100px;
   height: 50px;
   transition: background-position-x 0.9s linear;
   text-align: center;
@@ -62,8 +62,27 @@
 }
 
 .logo{
-   width: 100px; 
-   height: 100px;
+   width: 150px; 
+   height: 150px;
    padding-left: 50px;
    padding-right: 30px; 
+}
+.book {
+    position: fixed;
+    right: 30px;
+    text-decoration: none;
+    color:white;
+    font-family: 'Teko', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    background-color: transparent;
+    border-color: transparent;
+    padding: 5px;
+    border-radius: 10px;
+
+  } 
+
+.iconCal{
+    color: white;
+    padding-right: 10px;
 }

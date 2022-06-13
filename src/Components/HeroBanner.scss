@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+
+
+
+.hero-image {
+    position: relative;
+    text-align: center;
+
+    }
+
+    
+.mainContainer::after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.25) 100%);
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+  }
+
+  .tinted-image1{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+  }
+
+  .selector{
+        font-family: 'Teko', sans-serif;
+        font-size: 100px;
+        z-index: 1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-120%, -50%);
+        text-align: left;
+        color: white;
+        margin: 0;
+        padding: 0;
+        line-height: 125%;
+      
+
+      
+  
+  a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+  a:hover{
+    color: #000;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
+    
+
+  }
+
+  a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+
+  a:hover::before {
+    transform: scaleX(1);
+  }
+  }
+
+  h4{
+      font-size: 40px;
+      line-height: 0%;
+  }

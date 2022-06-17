@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ebdd9494.css",
+    "main.js": "/static/js/main.dc94f8ef.js",
+    "static/js/787.68681f1e.chunk.js": "/static/js/787.68681f1e.chunk.js",
+    "static/media/RI10.PNG": "/static/media/RI10.2ba494ff421527ea1b50.PNG",
+    "static/media/RI9.PNG": "/static/media/RI9.74202adc7d5f17a222b4.PNG",
+    "static/media/RI11.PNG": "/static/media/RI11.c099cf509650b7e7b317.PNG",
+    "static/media/RI12.PNG": "/static/media/RI12.c81011c49a0767fb4cdc.PNG",
+    "static/media/RI13.PNG": "/static/media/RI13.ee4e07e9dc6944a5a377.PNG",
+    "static/media/civic.jpg": "/static/media/civic.c4416eb82cf5c015daba.jpg",
+    "static/media/RI6.png": "/static/media/RI6.1cca992067d4f96ebdf4.png",
+    "static/media/RI14.png": "/static/media/RI14.fdca49d613cbf4dd68d7.png",
+    "static/media/SM16.jpeg": "/static/media/SM16.177502fa8e539f36ec39.jpeg",
+    "static/media/SM13.jpeg": "/static/media/SM13.4ee204a8bd0609c00e6d.jpeg",
+    "static/media/wash.jpg": "/static/media/wash.ab94c3bbb063feb8f547.jpg",
+    "static/media/SM15.jpeg": "/static/media/SM15.bc858f2c29d5914f9019.jpeg",
+    "static/media/SM2.jpeg": "/static/media/SM2.0218cac1870ccfbfd603.jpeg",
+    "static/media/SM14.jpeg": "/static/media/SM14.bde8c1a502c7442c7ac7.jpeg",
+    "static/media/SM6.jpeg": "/static/media/SM6.8e9e6cc00a5674924520.jpeg",
+    "static/media/SM1.jpeg": "/static/media/SM1.276e2fa14bf694f3f162.jpeg",
+    "static/media/corolla.jpg": "/static/media/corolla.c9f4a00e091d12645607.jpg",
+    "static/media/SM8.jpeg": "/static/media/SM8.77a6b1168f30eaca895b.jpeg",
+    "static/media/SM3.jpeg": "/static/media/SM3.e260b5dace8bba0137dc.jpeg",
+    "static/media/SM4.jpeg": "/static/media/SM4.85204192614dfe960646.jpeg",
+    "static/media/SM11.jpeg": "/static/media/SM11.b67cd746286933116903.jpeg",
+    "static/media/SM12.jpeg": "/static/media/SM12.e2843cfd6cc3cd3f8397.jpeg",
+    "static/media/interior.jpg": "/static/media/interior.30567f99281bb9ee915e.jpg",
+    "static/media/carcleanersLogo.png": "/static/media/carcleanersLogo.7202588ae2b1f48468cd.png",
+    "static/media/SM7.jpeg": "/static/media/SM7.05afd9b2133fda8bb484.jpeg",
+    "static/media/SM5.jpeg": "/static/media/SM5.de165eca6d65cc037e57.jpeg",
+    "static/media/SM9.jpeg": "/static/media/SM9.ec6a68eab6515c6b4f43.jpeg",
+    "static/media/SM10.jpeg": "/static/media/SM10.d8a541cbb44a65682e93.jpeg",
+    "index.html": "/index.html",
+    "main.ebdd9494.css.map": "/static/css/main.ebdd9494.css.map",
+    "main.dc94f8ef.js.map": "/static/js/main.dc94f8ef.js.map",
+    "787.68681f1e.chunk.js.map": "/static/js/787.68681f1e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebdd9494.css",
+    "static/js/main.dc94f8ef.js"
+  ]
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+
+
+.aboutUs{
+    width:100vw;
+    height:100vh;
+    color: black;
+    align-self: auto;
+    z-index: 0;
+    background-color: #121212;
+    position:absolute;
+    top:100%;
+    scroll-snap-align: start;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+h1{
+    color: white;
+    opacity: 87%;
+    font-family: 'Teko', sans-serif;
+    padding-top: 30px;
+}
+
+p{
+    color:white;
+    opacity:65%;
+    font-family: 'Teko', sans-serif;
+    padding-top:30px;
+
+}
+
+.card{
+    display: flex;
+    background-color: black;
+    top:10%;
+    width:80vw;
+    margin-top: 130px;
+    margin-left: 190px;
+    border-radius: 20px;
+    
+}
+.left{
+    width:30vw;
+    padding-left:8vw;
+    padding-right:80px;
+    text-align:left;
+}
+.right{
+    width: 10%;
+    height: 10%;
+    padding: 30px;
+    padding-top: 5px;
+}
+.imageRight{
+    margin-top: 60px;
+    object-fit: cover;
+    width:30vw;
+    border-radius: 20px;
+    height: 70vh;
+    
+}
+@media only screen and (max-width: 600px) {
+    .card{
+        flex-direction: column;
+        
+        margin:auto;
+        margin-top: 10px;
+    }
+    .left{
+        text-align: center;
+        width: 60vw;
+    }
+    p{
+        font-size: 10px;
+    }
+    .imageRight{
+       display: none;
+    }
+}

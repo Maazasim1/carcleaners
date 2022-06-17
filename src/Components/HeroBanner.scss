@@ -1,48 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 
 .hero-image {
-    position: relative;
     text-align: center;
 
     }
+    .mainContainer{
+        scroll-snap-align: start;
 
-    
+    }
+
+
 .mainContainer::after {
-    position: absolute;
+    
+    scroll-snap-align: start;
     height: 100%;
-    width: 100%;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.25) 100%);
-    top: 0;
-    left: 0;
-    display: block;
+    width: 100%;;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.25) 100%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.25) 100%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    position: absolute;
+    top:0;
+    left:0;
     content: "";
   }
 
   .tinted-image1{
       position: absolute;
-      width: 100%;
-      height: 100%;
-      display: block;
+      width: 100vw;
+      height: 100vh;
       object-fit: cover;
       opacity: 0;
       
   }
 
   .selector{
-        font-family: 'Teko', sans-serif;
-        font-size: 100px;
+        font-family: 'Russo One', sans-serif;
+        font-size: 130px;
         z-index: 1;
         position: absolute;
-        top: 50%;
-        left: 50%;
+        top: 60%;
+        left: 63%;
         transform: translate(-120%, -50%);
         text-align: left;
         color: white;
         margin: 0;
         padding: 0;
-        line-height: 125%;
+        line-height: 90%;
       
 
       
@@ -66,9 +77,8 @@
 
   a::before {
     content: "";
-    position: absolute;
-    display: block;
-    width: 100%;
+    position: relative;
+    width: 100vw;
     height: 2px;
     bottom: 0;
     left: 0;
@@ -83,6 +93,29 @@
   }
 
   h4{
-      font-size: 40px;
+      font-size: 20px;
       line-height: 0%;
+  }
+
+  .carred{
+    color: red;
+    font-size: 25px;
+    padding: 15px;
+  }
+  .iconDiv{
+    display: flex;
+    flex-direction: row;
+  }
+  @media only screen and (max-width: 600px) {
+    .selector{
+      left:67vw;
+      font-size:30px;
+      padding-top: 20vh;
+      h4{
+        font-size: 15px;
+      }
+    }
+    .carred{
+      font-size: 22px;
+    }
   }

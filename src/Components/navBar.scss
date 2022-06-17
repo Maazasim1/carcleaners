@@ -1,14 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-  padding: 0;
-  margin: 0;
-  letter-spacing: 1.1px;
-}
 
 
 
@@ -18,23 +10,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 720px;
+  max-width: 920px;
   margin: 0 auto;
-  height: 5vh;
+  height: 10vh;
   list-style: none;
   margin-top: 1%;
 }
 
 .menu li {
-  width: 100px;
+  width: 131px;
   height: 50px;
   transition: background-position-x 0.9s linear;
   text-align: center;
+  padding-top: 20px;
 
   a {
-    font-family: 'Teko', sans-serif;
-    font-weight: 700;
-    font-size: 22px;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
     color: rgb(255, 255, 255);
     text-decoration: none;
     transition: all 0.45s;
@@ -66,23 +59,61 @@
    height: 150px;
    padding-left: 50px;
    padding-right: 30px; 
+   margin: 5px;
 }
 .book {
     position: fixed;
     right: 30px;
     text-decoration: none;
-    color:white;
-    font-family: 'Teko', sans-serif;
-    font-weight: 700;
-    font-size: 25px;
+    color:#d3394d;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 100;
+    font-size: 20px !important;
     background-color: transparent;
     border-color: transparent;
-    padding: 5px;
+    padding: 0px;
     border-radius: 10px;
+    top:30px
 
   } 
 
 .iconCal{
     color: white;
     padding-right: 10px;
+    font-size: 30px;
+    -webkit-animation: bounce .3s infinite alternate;
+    -moz-animation: bounce .3s infinite alternate;
+    animation: bounce .3s infinite alternate;
+    @-webkit-keyframes bounce {
+      to { -webkit-transform: scale(1.2); }
+    }
+    @-moz-keyframes bounce {
+      to { -moz-transform: scale(1.2); }
+    }
+    @keyframes bounce {
+      to { transform: scale(1.2); }
+}
+}
+@media only screen and (max-width: 600px) {
+  .logo{
+    transform: scale(80%,80%);
+    padding-left: 80px;
+    
+
+  }
+  .menu li{
+    display: none;
+  }
+  .book{
+    transform: scale(80%,80%);
+    left:25vw;
+    display: block;
+   
+    margin: auto 0;
+    top: 10vh;
+    position :absolute;
+  }
+  .menu{
+    position: absolute;
+  }
 }

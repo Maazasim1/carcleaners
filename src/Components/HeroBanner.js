@@ -4,36 +4,20 @@ import Interior from './interior.jpg';
 import './HeroBanner.scss'
 import { useState } from 'react'
 import { motion, AnimatePresence } from "framer-motion";
+import ScrollAnimation from './scrollAnimation';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faCar } from "@fortawesome/free-solid-svg-icons";
+
+library.add(faCar);
+
 
 function HeroBanner() {
     const [imageNumber, setImageHover] = useState(Civic);
 
-    const changeImage = (e) => {
-        {
-            const name = e.target.className;
-            switch (name) {
-                case 'clean':
-                    setImageHover(Civic);
-
-
-                case 'inter':
-                    setImageHover(Interior);
-
-                case 'service':
-                    setImageHover(Corolla)
-
-
-                    break;
-
-                default:
-                    break;
-            }
-        }
-    }
-
-
+    
     return (
-        <div className='mainContainer'>
+        <div className='mainContainer' id='Home'>
             <AnimatePresence>
                 <motion.img
                     key={imageNumber}
@@ -45,7 +29,7 @@ function HeroBanner() {
                         zIndex: 0,
                         y: 0,
                         opacity: 1,
-                       
+                        
                         
                     }}
                     exit={{
@@ -65,13 +49,17 @@ function HeroBanner() {
 
 
             <div className='selector'>
-                <h4>What We Do</h4>
-                <a className='clean'>Cleaning</a>
+                <div className='iconDiv'>
+                    <FontAwesomeIcon icon='car' className='carred'/>
+                <h4>WHAT WE DO</h4>
+                </div>
+                <a className='clean' href='#Services'>CLEANING</a>
                 <br />
-                <a onMouseEnter={() => setImageHover(Interior)} onMouseLeave={() => setImageHover(Civic)} className='inter'>Interior Cleaning</a>
+                <a href='#Services' onMouseEnter={() => setImageHover(Interior)} onMouseLeave={() => setImageHover(Civic)} className='inter'>DETAILING</a>
                 <br />
-                <a onMouseEnter={() => setImageHover(Corolla)} onMouseLeave={() => setImageHover(Civic)} className='service'>Service</a>
+                <a href='#Services' onMouseEnter={() => setImageHover(Corolla)} onMouseLeave={() => setImageHover(Civic)} className='service'>STEAM  CLEANING</a>
 
+                    <ScrollAnimation />
             </div>
 
         </div>

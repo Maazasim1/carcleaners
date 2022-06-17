@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+.wrapper{
+    width:100vw;
+    height:100vh;
+    align-self: auto;
+    z-index: 0;
+    background-color: #121212;
+    position:absolute;
+    top:400%;
+    scroll-snap-align: start;
+    justify-content: center;
+    align-items: center;
+}
+.sliderMas{
+    padding: 100px;
+    margin-top:2%;
+.card{
+    flex-direction: column;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07);
+}
+.card-text{
+    padding: 10px !important;
+    font-size: small;
+}
+}
+.headerReviews{
+    width: auto;
+    display: block;
+    text-align: center;
+    margin-top: 120px;
+
+}
+.card-img{
+    object-fit: cover;
+
+}
+@media only screen and (max-width: 600px) {
+    .wrapper{
+        top:300%;
+
+
+
+
+
+
+
+        
+    }
+    .sliderMas{
+        padding: 5vw;
+        .card{
+            transform: scale(85%,85%) !important;
+        }
+        
+        
+    }
+    .headerReviews{
+        margin-top: 3vh;
+    }
+    
+    
+}
+
+

@@ -1,0 +1,73 @@
+.WhatWeDo{
+    width:100vw;
+    height:100vh;
+    align-self: auto;
+    z-index: 0;
+    background-color: #121212;
+    position:absolute;
+    top:200%;
+    scroll-snap-align: start;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.sliderSM
+{
+    align-items: center;
+    justify-content: center;
+    width:90%;
+    height:50%;
+    margin: auto;
+    display: block;
+    padding-top: 230px;
+
+img {
+    justify-content: center;
+    width: 55%;
+    height: 10%;
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+    
+}
+}
+
+.sliderSM{
+.slick-prev,
+.slick-next{
+    color: white;
+    transform: scale(400%,400%);
+    width: 120px;
+    padding-top: 60px;
+    
+}
+
+}
+.headerServices{
+    width: auto;
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+
+}
+@media only screen and (max-width: 600px) {
+    .slick-next,.slick-prev{
+        display: none !important;
+    }
+    .headerServices{
+        margin-top: 8vh;
+    }
+    .sliderSM
+    {
+        width: 100%;
+        height: 90%;
+        padding-top: 10vh;
+
+    img{
+        width: 81vw;
+    }
+    }
+}

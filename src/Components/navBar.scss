@@ -76,6 +76,9 @@
     top:30px
 
   } 
+  .book::before{
+    
+  }
 
 .iconCal{
     color: white;
@@ -94,6 +97,9 @@
       to { transform: scale(1.2); }
 }
 }
+.formconvo{
+  padding: 30px!important;
+}
 @media only screen and (max-width: 600px) {
   .logo{
     transform: scale(80%,80%);
@@ -106,7 +112,8 @@
   }
   .book{
     transform: scale(80%,80%);
-    left:25vw;
+    left:16vw;
+    width: 280px;
     display: block;
    
     margin: auto 0;
